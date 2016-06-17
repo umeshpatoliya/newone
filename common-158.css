@@ -1,0 +1,97 @@
+.pidoco .ext-gecko .x-window-body .x-form-item {
+	overflow:inherit;
+}
+
+.pidoco .greenlink {
+	color: #B1C51A;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* LOADING MASK */
+.pidoco .ext-el-mask {
+	background-color: white;
+	opacity: 0.5;
+}
+.pidoco .x-item-disabled .ext-el-mask {
+	background-color: transparent;
+}
+.pidoco .ext-el-mask-msg {
+	background-color: #424240;
+	border: none;
+}
+.pidoco .ext-el-mask-msg div {
+	border: none;
+	background: #424240 url('../icons/loading.gif') no-repeat scroll 5px 5px;
+	color: white;	
+}
+
+/* DIALOG WINDOW */
+
+.pidoco .x-panel-body.dialog,
+.pidoco .x-panel-body.dialog a {
+	background-color: #44413f;
+	border-color:#2f2f2f;
+	color:#b1c51a;
+	border-width: 0px;
+}
+
+.pidoco .x-fieldset {
+	margin-bottom: 0px;
+}
+
+.pidoco .x-form-text.pageSelector,
+.pidoco .x-form-text.configOptions {
+	cursor:default;
+}
+
+.pidoco .x-form-item.no-margin {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* WINDOWS */
+.pidoco .x-window-tl .x-window-header {
+	color:#2f2f2f;
+}
+
+.pidoco .x-window-mc,
+.pidoco .x-panel-ml,
+.pidoco .x-panel-mr,
+.pidoco .x-panel-bl,
+.pidoco .x-panel-br,
+.pidoco .x-panel-bc,
+.pidoco .x-panel-mc {
+	background-color: #44413f;
+	background-image: none;
+	background-color: #44413f;	
+	border-width: 0px;
+	font:normal 11px;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+}
+
+/* TOOLTIP */
+.pidoco .x-tip .x-tip-body {
+	font-family: arial, sans-serif;
+	color: #b1c51a;
+	font-size: 11px;
+	background: #2f2f2f;
+	border: 1px solid #74810e;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.pidoco .x-tip .x-tip-mr,
+.pidoco .x-tip .x-tip-ml,
+.pidoco .x-tip .x-tip-mc,
+.pidoco .x-tip .x-tip-tr,
+.pidoco .x-tip .x-tip-tl,
+.pidoco .x-tip .x-tip-tc,
+.pidoco .x-tip .x-tip-br,
+.pidoco .x-tip .x-tip-bl,
+.pidoco .x-tip .x-tip-bc {
+	background: none;
+	padding: 0px;
+	border: none;
+}
